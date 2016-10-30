@@ -1,0 +1,33 @@
+{
+  "name": "q_q",
+  "version": "1.0.0",
+  "description": "minimal first in first out task queue",
+  "keywords": [
+    "queue",
+    "task",
+    "async",
+    "fifo"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "author": {
+    "name": "Eric Birkeland",
+    "email": "ericjbirkeland@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hadhadhadhadabettereffect/q_q.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "raf": "^3.3.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
+}
